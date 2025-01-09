@@ -12,6 +12,9 @@ export default function AppRoutes () {
             <Stack.Screen 
                 name='Home' 
                 component={Home}
+                options={{
+                    headerShown: false
+                }}
             />
         </Stack.Navigator>
     )

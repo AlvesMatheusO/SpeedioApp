@@ -5,7 +5,7 @@ import AuthRoutes from "./auth.routes";
 
 export default function Routes() {
   const isAuthenticated = false;
-  const loading = true;
+  const loading = false;
 
   if (loading) {
     return (
